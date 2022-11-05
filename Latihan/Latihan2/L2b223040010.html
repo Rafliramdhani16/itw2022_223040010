@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form + tabel</title>
+    <style>
+		table, td, th {
+  border: 1px solid;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+</style>
+</head>
+<body>
+    <table cellpadding="6" cellspacing="0">
+        <form>
+            <tr>
+                <th colspan="3" style="background-color:grey;">Input Data Mahasiswa</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Username">Username</label></td>
+                <td>:</td>
+                <td><input type="text" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password">Password</label>
+                </td>
+                <td>:</td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fullname">Fullname</label>
+                </td>
+                <td>:</td>
+                <td><input type="text" id="fullname"></td>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td>:</td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Agama">Agama</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <select>
+                       <option>Islam</option> 
+                       <option>Kristen</option> 
+                       <option>Buddha</option> 
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>jenis kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+                </td>
+            </tr>
+             <tr>
+                <td><label>Hobi</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox"><label>Gaming</label>
+                    <input type="checkbox"><label>Olahraga</label>
+                    <input type="checkbox"><label>Musik</label>
+                    <input type="checkbox"><label>Lainya</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Profil Singkat</label></td>
+                <td>:</td>
+                <td>
+                    <textarea width="100"></textarea>
+                </td>
+            </tr>
+            <td colspan="3" align="right">
+                <input type="submit" value="kirim">
+            </td>
+        </form>
+</body>
+</html>
