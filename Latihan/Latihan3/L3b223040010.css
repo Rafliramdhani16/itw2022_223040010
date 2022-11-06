@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+  font-family: Georgia;
+  text-align: justify;
+}
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+h4 {
+  text-align: right;
+  font-style: oblique;
+}
+h3 a {
+  color: aliceblue;
+}
+.p1 {
+  color: salmon;
+  text-align: center;
+}
+.p2 {
+  text-align: right;
+}

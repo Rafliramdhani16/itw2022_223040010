@@ -1,0 +1,14 @@
+body {
+  background-color: aqua;
+  font-family: Georgia;
+  text-align: justify;
+}
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+}
+h4 {
+  text-align: right;
+  font-style: oblique;
+}
