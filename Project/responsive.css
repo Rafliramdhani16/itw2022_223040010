@@ -1,0 +1,45 @@
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+}
+/* handphone */
+@media screen and (max-width: 576px) {
+  .menu-toggle {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(154, 154, 154);
+    z-index: -1;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 1;
+  }
+  p {
+    width: 50%;
+    margin: auto;
+  }
+  .col-1,
+  .col-2,
+  .col-4 {
+    width: 50%;
+    margin: auto;
+  }
+  .col-4 {
+    margin-top: 40px;
+  }
+
+  nav ul .slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
