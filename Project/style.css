@@ -3,7 +3,6 @@ body {
   overflow-x: hidden;
   background-color: rgb(198, 198, 198);
 }
-
 nav {
   display: flex;
   background-color: rgb(154, 154, 154);
@@ -12,23 +11,22 @@ nav {
   color: aliceblue;
   align-items: center;
 }
-
 .logo {
   letter-spacing: 3px;
   font-family: "quicksand";
   font-size: 20px;
 }
+
 nav ul {
   display: flex;
   list-style: none;
-  width: 20%;
+  width: 30%;
   justify-content: space-between;
 }
 nav ul li a {
   color: aliceblue;
   text-decoration: none;
   font-size: 1em;
-  float: left;
 }
 
 nav ul li a:hover {
@@ -51,7 +49,7 @@ nav ul li a:hover {
   top: -3px;
   opacity: 0;
   cursor: pointer;
-  z-index: 2;
+  z-index: 10;
 }
 .menu-toggle span {
   display: block;
@@ -60,11 +58,12 @@ nav ul li a:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 3px;
   transition: all 0.5s;
+  z-index: 4;
 }
 
 .raf img {
   position: relative;
-
+  z-index: -10;
   display: block;
   border-radius: 50%;
   width: 250px;
@@ -87,7 +86,7 @@ h2 {
   font-family: "quicksand";
   margin-top: 50px;
   color: rgb(41, 41, 41);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -160,8 +159,8 @@ h2 {
   text-align: center;
   font-family: "quicksand";
   margin-top: 50px;
-  color: rgb(234, 234, 234);
-  font-size: 30px;
+  color: rgb(42, 42, 42);
+  font-size: 40px;
   font-weight: bold;
   padding-top: 30px;
   padding-bottom: 40px;
@@ -291,4 +290,16 @@ footer {
 }
 footer small {
   color: #fff;
+}
+h2 {
+  z-index: -9;
+}
+.s1 {
+  font-family: "quicksand";
+  color: rgb(42, 42, 42);
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font: optional;
 }
